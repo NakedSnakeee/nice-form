@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test form dpg</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="test_form">
+        <h1>Hello</h1>
+        <form action="main_form" class="main_form">
+            <div class="main_form_description">
+                <p>For business enquiries please use the form below</p>
+                <span>*Required</span>
+            </div>
+            <label for="name" id="nameLabel">Name*</label>
+            <input type="text" id="name">
+
+            <label for="company" id="nameCompany">Company*</label>
+            <input type="text" id="company">
+
+            <label for="mail" id="nameMail">E-mail*</label>
+            <input type="text" id="mail">
+            <label for="phone" id="namePhone">Phone</label>
+            <input type="text" id="phone">
+
+            <label for="subject" id="nameSubject">Subject</label>
+            <input type="text" id="subject">
+
+            <label for="message" id="nameMessage">Message</label>
+            <textarea name="message" id="message" rows="20"></textarea>
+
+            <div class="main_form_radio">
+                <input type="checkbox" id="termsOfUse">
+                <label for="termsOfUse">I accept <a href="#">Terms and Privacy Policy</a></label>
+            </div>
+
+            <input type="submit" value="Send" href="#">
+        </form>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
