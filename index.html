@@ -17,15 +17,16 @@
                 <span>*Required</span>
             </div>
             <label for="name" id="nameLabel">Name*</label>
-            <input type="text" id="name">
+            <input type="text" id="name" pattern="^[А-Яа-яЁёa-zA-Z\s]+$">
 
             <label for="company" id="nameCompany">Company*</label>
             <input type="text" id="company">
 
             <label for="mail" id="nameMail">E-mail*</label>
-            <input type="text" id="mail">
+            <input type="text" id="mail" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})">
+            
             <label for="phone" id="namePhone">Phone</label>
-            <input type="text" id="phone">
+            <input type="text" id="phone" pattern="\+?[0-9\s\-\(\)]+">
 
             <label for="subject" id="nameSubject">Subject</label>
             <input type="text" id="subject">
